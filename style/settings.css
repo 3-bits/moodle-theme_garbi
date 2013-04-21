@@ -1,0 +1,12 @@
+body {
+background-color: [[setting:bodybgcolor]];
+}
+
+a {
+color: [[setting:linkcolor]];
+}
+
+a:hover {
+color: [[setting:linkhovercolor]];
+}
+

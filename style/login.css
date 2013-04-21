@@ -1,0 +1,111 @@
+.userinfo {
+	margin: auto;
+	float: right;
+	text-align: center;
+	display: inline;
+	width: 220px;
+	padding: 4px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 2px solid #c0c0c0;
+}
+
+.userinfo a {
+	text-decoration: none;
+}
+
+.userinfodata {
+	float: left;
+	text-align: left;
+	display: block;
+	margin: 5px;
+}
+
+.userinfolink {
+	display: inline;
+	margin: 5px;
+	border-right: 2px solid #CCCCCC;
+	padding: 6px;
+}
+
+.userinfolinkno {
+	display: inline;
+	margin: 5px;
+	padding-left: 6px;
+}
+
+.userinfoimg {
+	height: 48px;
+	width: 48px;
+	padding: 4px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+
+.userinfo.icon img {
+	height: 24px;
+	width: 24px;
+	padding: 4px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+
+
+.unreadmessages {
+    font-size: 120%;
+    font-weight: bold;
+    margin-right: 4px;
+
+
+}
+
+
+
+.userinfoform {
+	margin: auto;
+	float: right;
+	text-align: center;
+	display: inline;
+	padding: 4px;
+}
+
+.userinfousername{
+    margin: auto;
+	float: left;
+	display: inline;
+	width: 220px;
+	padding-right: 4px;
+}
+
+.userinfopassword{
+    margin: auto;
+	float: left;
+	display: inline;
+	width: 220px;
+	padding-right: 4px;
+}
+
+.rememberusername, .userinfoforgot, .userinforegister {      
+    display: inline;
+	float: left;
+    padding-left: 4px;
+    width: 160px;
+}
+
+
+/**********************/
+
+.breadcrumb{
+	margin-top: 100px;
+}
+
+.header-logo {
+	width: auto;
+	display: inline;
+	float: left;
+}
+
+#page-header {
+/*    height: 130px;*/
+}
