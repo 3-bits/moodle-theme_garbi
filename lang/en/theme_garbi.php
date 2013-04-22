@@ -34,9 +34,12 @@ $string['slidedesc'] = 'Enter the Slide URL';
 $string['bodybgcolor'] = 'Body background color';
 $string['linkcolor'] = 'Link color';
 $string['linkhovercolor'] = 'Link hover color';
+$string['menubgcolor'] = 'Menu background color';
+
 $string['bodybgcolordesc'] = 'Body background color';
 $string['linkcolordesc'] = 'Link color';
 $string['linkhovercolordesc'] = 'Link hover color';
+$string['menubgcolordesc'] = 'Menu background color';
 
 
 $string['footnote'] = 'Footnote';

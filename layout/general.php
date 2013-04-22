@@ -79,9 +79,6 @@ echo $OUTPUT->doctype() ?>
             });
     });
     </script>
-
-
-    
 </head>
 
 <body id="<?php p($PAGE->bodyid) ?>" class="<?php p($PAGE->bodyclasses.' '.join($bodyclasses)) ?>">

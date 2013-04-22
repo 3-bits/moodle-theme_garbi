@@ -1,12 +1,17 @@
 body {
-background-color: [[setting:bodybgcolor]];
+    background-color: [[setting:bodybgcolor]];
 }
 
 a {
-color: [[setting:linkcolor]];
+    color: [[setting:linkcolor]];
 }
 
 a:hover {
-color: [[setting:linkhovercolor]];
+    color: [[setting:linkhovercolor]];
 }
 
+
+.block_tree li p.active_tree_node a, 
+.block_tree li p.active_tree_node a:hover {
+    background-color: [[setting:menubgcolor]];
+}

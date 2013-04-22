@@ -77,6 +77,16 @@ if ($ADMIN->fulltree) {
     $settings->add($setting);
 
     
+//Menu background color
+    $name = 'theme_garbi/menubgcolor';
+    $title = get_string('menubgcolor','theme_garbi');
+    $description = get_string('menubgcolordesc', 'theme_garbi');
+    $default = '#666666';
+    $previewconfig = NULL;
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
+    $settings->add($setting);
+
+    
     
 	// Custom CSS   
 	$name = 'theme_garbi/customcss';

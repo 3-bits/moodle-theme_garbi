@@ -29,17 +29,84 @@
  */
 
 function garbi_process_css($css, $theme) {
-
-    // Set custom CSS.
-    if (!empty($theme->settings->customcss)) {
-        $customcss = $theme->settings->customcss;
+//function garbi_user_settings($css, $theme) {
+   
+    // Set body background color 
+    if (!empty($theme->settings->bodybgcolor)) {
+        $bodybgcolor = $theme->settings->bodybgcolor;
     } else {
-        $customcss = null;
+        $bodybgcolor = null;
     }
-    $css = garbi_set_customcss($css, $customcss);
+    $css = garbi_set_bodybgcolor($css, $bodybgcolor);
 
+    
+    // Set link color 
+    if (!empty($theme->settings->linkcolor)) {
+        $linkcolor = $theme->settings->linkcolor;
+    } else {
+        $linkcolor = null;
+    }
+    $css = garbi_set_linkcolor($css, $linkcolor);
+
+    // Set link hover colour 
+    if (!empty($theme->settings->linkcolor)) {
+        $linkcolor = $theme->settings->linkcolor;
+    } else {
+        $linkcolor = null;
+    }
+    $css = garbi_set_linkcolor($css, $linkcolor);
+
+    
+    // Set link hover color 
+    if (!empty($theme->settings->linkhovercolor)) {
+        $linkhovercolor = $theme->settings->linkhovercolor;
+    } else {
+        $linkhovercolor = null;
+    }
+    $css = garbi_set_linkhovercolor($css, $linkhovercolor);
+
+
+    // Set menu background color 
+    if (!empty($theme->settings->menubgcolor)) {
+        $menubgcolor = $theme->settings->menubgcolor;
+    } else {
+        $menubgcolor = null;
+    }
+    $css = garbi_set_menubgcolor($css, $menubgcolor);
+    
+    
+    return $css;
+    
+    
+    
+    
+}
+
+
+function garbi_set_bodybgcolor($css, $bodybgcolor) {
+    $tag = '[[setting:bodybgcolor]]';
+    $css = str_replace($tag, $bodybgcolor, $css);
     return $css;
 }
+
+function garbi_set_linkcolor($css, $linkcolor) {
+    $tag = '[[setting:linkcolor]]';
+    $css = str_replace($tag, $linkcolor, $css);
+    return $css;
+}
+
+function garbi_set_linkhovercolor($css, $linkhovercolor) {
+    $tag = '[[setting:linkhovercolor]]';
+    $css = str_replace($tag, $linkhovercolor, $css);
+    return $css;
+}
+
+function garbi_set_menubgcolor($css, $menubgcolor) {
+    $tag = '[[setting:menubgcolor]]';
+    $css = str_replace($tag, $menubgcolor, $css);
+    return $css;
+}
+
 
 function garbi_set_customcss($css, $customcss) {
     $tag = '[[setting:customcss]]';
@@ -57,8 +124,8 @@ function garbi_set_customcss($css, $customcss) {
 function theme_garbi_page_init(moodle_page $page) {
     $page->requires->jquery();
     $page->requires->jquery_plugin('flexslider');
-    
 }
+
 
 
 
