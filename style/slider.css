@@ -1,4 +1,19 @@
-/*
+/**
+ * Moodle's Garbi theme, an example of how to make a Bootstrap theme
+ *
+ * DO NOT MODIFY THIS THEME!
+ * COPY IT FIRST, THEN RENAME THE COPY AND MODIFY IT INSTEAD.
+ *
+ * For full information about creating Moodle themes, see:
+ * http://docs.moodle.org/dev/Themes_2.0
+ *
+ * Slideshow CSS file for Garbi theme
+ *
+ * @package   Garbi theme
+ * @copyright 2013 Fernando Acedo, http://3-bits.com
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ *
+ *
  * jQuery FlexSlider v2.0
  * http://www.woothemes.com/flexslider/
  *

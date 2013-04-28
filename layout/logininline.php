@@ -1,6 +1,7 @@
 ﻿<?php 
 
-// This file is part of the Garbi theme for moodle
+// This file is part of the Garbi theme for Moodle - http://moodle.org/
+//
 // Moodle is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
@@ -15,13 +16,19 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
+ * Moodle's Garbi theme, an example of how to make a Bootstrap theme
  *
- * @package    moodlecore
- * @subpackage block
- * @copyright  2013 Fernando Acedo - 3bits elearning solutions  
- * @author     2013 Fernando Acedo <info@3-bits.com>
- * @version    0.2
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * DO NOT MODIFY THIS THEME!
+ * COPY IT FIRST, THEN RENAME THE COPY AND MODIFY IT INSTEAD.
+ *
+ * For full information about creating Moodle themes, see:
+ * http://docs.moodle.org/dev/Themes_2.0
+ *
+ * Userinfo and login file for Garbi theme
+ *
+ * @package   Garbi theme
+ * @copyright 2013 Fernando Acedo, http://3-bits.com
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
        
