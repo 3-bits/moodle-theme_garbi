@@ -29,5 +29,29 @@ a:hover {
 
 .block_tree li p.active_tree_node a, 
 .block_tree li p.active_tree_node a:hover {
-    background-color: [[setting:menubgcolor]];
+color: #FFF;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+/*    background-color: [[setting:menubgcolor]];*/
+
+    background-color: #0066cc;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

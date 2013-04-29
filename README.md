@@ -23,3 +23,4 @@ Feel free to use it as a base for your themes. Copy the files to another folder 
 ##Changelog##
 
 1.0 Settings added. Fixed several small slideshow bugs
+1.1 Code documentation. Spanish translation

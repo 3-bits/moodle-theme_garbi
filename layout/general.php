@@ -140,8 +140,11 @@ echo $OUTPUT->doctype() ?>
     <?php }?>
     </div>
 
-    <?php include ('logininline.php') ?>
-
+    
+    <?php 
+        // User Info and login block
+        include ('logininline.php'); 
+    ?>
     
     <?php if ($hasnavbar) { ?>
         <nav class="breadcrumb-button"><?php echo $PAGE->button; ?></nav>
@@ -173,7 +176,8 @@ echo $OUTPUT->doctype() ?>
 
 <?php if ($hasslider) { ?>
 <!-- START Front Page Slideshow -->
-    <?php if (!$hasnavbar) { ?>
+
+    <?php if ($PAGE->bodyid == 'page-site-index') { ?>
     <div class="flexslider">
     <ul class="slides">
         <li>

@@ -62,6 +62,15 @@ $THEME->plugins_exclude_sheets = array(
     ),
 );
 
+$THEME->javascripts = array(
+    'bootstrapengine',
+    'moodlebootstrap',
+    'bootstrapcollapse',
+    'bootstrapdropdown',
+    'headercollapse',
+    'jquery.flexslider'
+);
+
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
 $THEME->csspostprocess = 'garbi_process_css';
 

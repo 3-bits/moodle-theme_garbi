@@ -108,14 +108,14 @@ if ($ADMIN->fulltree) {
     $name = 'theme_garbi/menubgcolor';
     $title = get_string('menubgcolor','theme_garbi');
     $description = get_string('menubgcolordesc', 'theme_garbi');
-    $default = '#666666';
+    $default = '#0066cc';
     $previewconfig = NULL;
     $setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
     $settings->add($setting);
 
     
     
-	// Custom CSS   
+// Custom CSS   
 	$name = 'theme_garbi/customcss';
 	$title = get_string('customcss','theme_garbi');
 	$description = get_string('customcssdesc', 'theme_garbi');
@@ -125,7 +125,7 @@ if ($ADMIN->fulltree) {
 
     
 
-	// Foot note setting
+// Foot note setting
 	$name = 'theme_garbi/footnote';
 	$title = get_string('footnote','theme_garbi');
 	$description = get_string('footnotedesc', 'theme_garbi');
