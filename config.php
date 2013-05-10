@@ -39,7 +39,7 @@ $THEME->name = 'garbi';
 //////////////////////////////////
 //
 $THEME->doctype = 'html5';
-$THEME->parents = array('bootstrap');
+$THEME->parents = array('bootstrapbase');
 $THEME->sheets = array(
     'login', 
     'settings',
@@ -53,9 +53,7 @@ $THEME->editor_sheets = array();
 
 $THEME->plugins_exclude_sheets = array(
     'block' => array(
-        'settings',
-        'navigation',
-        'html',
+        'html'
     ),
     'gradereport' => array(
         'grader',

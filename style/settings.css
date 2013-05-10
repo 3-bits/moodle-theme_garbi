@@ -24,18 +24,35 @@ a {
 
 a:hover {
     color: [[setting:linkhovercolor]];
+    text-decoration: none;
 }
 
 
+
+.block .header .title .commands, 
+.block_adminblock .content, 
+.block .footer, 
+.block .block_tree li>p>a, 
+.block .block_tree li>p>span {
+	display: block;
+	padding: 3px 15px;
+}
+
+
+
+.block_tree li p.tree_item branch,
+.block_tree li p.active_tree_node, 
 .block_tree li p.active_tree_node a, 
-.block_tree li p.active_tree_node a:hover {
-    color: #FFF;
+.block_tree li p.active_tree_node:hover,
+.block_tree li p.active_tree_node a:hover { 
+    color: #ffffff;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
     background-color: [[setting:menubgcolor]];
 }
 
-
-
+.coursebox .name a {
+    background-image: none;
+}
 
 
 

@@ -78,7 +78,7 @@ $string['hello'] = 'Hello ';
 // Theme info
 $string['choosereadme'] = 
 '<div class="clearfix"><div class="theme_screenshot"><h2>Garbi</h2>
-<img src="garbi/pix/screenshot.jpg" />
+<img src="garbi/pix/screenshot.png" />
 <h3>Theme Credits</h3><p>
 This theme is based in the Bootstrap theme created by:<br>
 Bas Brands <br>
