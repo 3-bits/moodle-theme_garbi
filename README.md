@@ -22,10 +22,16 @@ Feel free to use it as a base for your themes. Copy the files to another folder 
 
 1.0 Settings added. Fixed several small slideshow bugs
 <<<<<<< HEAD
+<<<<<<< HEAD
 1.1 Code documentation. Spanish translation
 1.2 Some fixes to adapt the theme to the definitibe boostrapbase theme
 =======
 1.1.1 Code documentation. Spanish translation
 1.1.2 Fixed some bugs in the slideshow. Added README.txt
+
+>>>>>>> 8fdf582b62ef671280b82d6f315e8f8c39b1709b
+=======
+1.1.1 Code documentation. Spanish translation
+1.1.2 Fixed some bugs in the slideshow
 
 >>>>>>> 8fdf582b62ef671280b82d6f315e8f8c39b1709b
