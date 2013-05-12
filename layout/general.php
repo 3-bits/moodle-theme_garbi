@@ -143,7 +143,7 @@ echo $OUTPUT->doctype() ?>
     
     <?php 
         // User Info and login block
-        include ('logininline.php'); 
+        include ('logininfo.php'); 
     ?>
     
     <?php if ($hasnavbar) { ?>
