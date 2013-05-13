@@ -51,22 +51,11 @@ a:hover {
 }
 
 
-/***********************/
-/* Garbi Customization */
-/***********************/
-
 .coursebox>.info>.name a {
     background-image: none;
 }
 
-.tree_item a img {
-    background-image: none;
-    display: none;
-}
 
-.breadcrumb {
-	margin-top: 120px;
-}
 
 
 
