@@ -14,6 +14,7 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+/* Theme settings */ 
 body {
     background-color: [[setting:bodybgcolor]];
 }
@@ -29,6 +30,7 @@ a:hover {
 
 
 
+/* Menu item adjust */
 .block .header .title .commands, 
 .block_adminblock .content, 
 .block .footer, 
@@ -39,7 +41,7 @@ a:hover {
 }
 
 
-
+/* Menu item active background */
 .block_tree li p.tree_item branch,
 .block_tree li p.active_tree_node, 
 .block_tree li p.active_tree_node a, 
@@ -51,12 +53,15 @@ a:hover {
 }
 
 
+/* Remove bullet icon in the course listing */
 .coursebox>.info>.name a {
     background-image: none;
 }
 
-
-
+/* Adjust breadcrumb */
+.breadcrumb {
+    margin-top: 120px;
+}
 
 
 
