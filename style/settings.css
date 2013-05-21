@@ -64,11 +64,19 @@ a:hover {
 }
 
 
+/* Adjust Settings menu icon */
+.navicon {
+    display: none;
+}
 
+.block_settings .block_tree .tree_item.branch ,
+.block_navigation .block_tree .tree_item.branch  {
+    background-position: 7% 50%;
+}
 
-
-
-
+.tree_item  a img {
+    display: none;
+}
 
 
 
