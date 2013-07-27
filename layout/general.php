@@ -136,14 +136,16 @@ echo $OUTPUT->doctype() ?>
     <?php if (empty($PAGE->theme->settings->logo_url)) {?>
         <h1 class="headermain"><?php echo $PAGE->heading ?></h1>
     <?php } else { ?>
-        <img src="<?php echo $PAGE->theme->settings->logo_url; ?>">
+        <a href="<?php echo $CFG->wwwroot; ?>" title="<?php print_string('home'); ?>">
+            <img src="<?php echo $PAGE->theme->settings->logo_url; ?>">
+        </a>
     <?php }?>
     </div>
 
     
     <?php 
         // User Info and login block
-        include ('logininline.php'); 
+        include ('logininfo.php'); 
     ?>
     
     <?php if ($hasnavbar) { ?>

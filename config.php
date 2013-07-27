@@ -39,7 +39,7 @@ $THEME->name = 'garbi';
 //////////////////////////////////
 //
 $THEME->doctype = 'html5';
-$THEME->parents = array('bootstrapbase');
+$THEME->parents = array('bootstrap');
 $THEME->sheets = array(
     'login', 
     'settings',
@@ -61,12 +61,8 @@ $THEME->plugins_exclude_sheets = array(
 );
 
 $THEME->javascripts = array(
-    'bootstrapengine',
-    'moodlebootstrap',
-    'bootstrapcollapse',
-    'bootstrapdropdown',
-    'headercollapse',
     'jquery.flexslider'
+,
 );
 
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
