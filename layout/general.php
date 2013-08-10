@@ -119,7 +119,7 @@ echo $OUTPUT->doctype() ?>
             <li><?php echo $PAGE->headingmenu ?></li>
                 <li class="navbar-text">
                 <?php if (!empty($PAGE->layout_options['langmenu'])) {
-                    echo $OUTPUT->lang_menu();
+//                    echo $OUTPUT->lang_menu();
                  } ?>
                 </li>
             </ul>
@@ -136,9 +136,7 @@ echo $OUTPUT->doctype() ?>
     <?php if (empty($PAGE->theme->settings->logo_url)) {?>
         <h1 class="headermain"><?php echo $PAGE->heading ?></h1>
     <?php } else { ?>
-        <a href="<?php echo $CFG->wwwroot; ?>" title="<?php print_string('home'); ?>">
-            <img src="<?php echo $PAGE->theme->settings->logo_url; ?>">
-        </a>
+        <img src="<?php echo $PAGE->theme->settings->logo_url; ?>">
     <?php }?>
     </div>
 

@@ -31,6 +31,6 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2013072700;
+$plugin->version   = 2013041000;
 $plugin->requires  = 2013040500;
 $plugin->component = 'theme_garbi';

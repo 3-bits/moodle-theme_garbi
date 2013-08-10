@@ -69,14 +69,10 @@ a:hover {
     display: none;
 }
 
-.jsenabled .block_navigation .block_tree .collapsed .tree_item.branch,
-.jsenabled .block_settings .block_tree .collapsed .tree_item.branch,
 .block_settings .block_tree .tree_item.branch ,
 .block_navigation .block_tree .tree_item.branch  {
-    background-image: none;
+    background-position: 7% 50%;
 }
-
-
 
 .tree_item  a img {
     display: none;
